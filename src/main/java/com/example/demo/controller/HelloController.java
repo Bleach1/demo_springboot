@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 import java.util.Map;
 
-@RestController
+@RestController//标识改接口返回json格式
 public class HelloController {
     @Value(value = "${book.author}")
     private String bookAuthor;

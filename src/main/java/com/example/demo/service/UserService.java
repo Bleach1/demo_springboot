@@ -10,7 +10,7 @@ public class UserService {
     private JdbcTemplate jdbcTemplate;
 
     public void createUser(String name, Integer age) {
-        jdbcTemplate.update("insert into users VALUES (NULL ,?,?);", name, age);
+        jdbcTemplate.update("insert into users values (null ,?,?);", name, age);
 
     }
 }
