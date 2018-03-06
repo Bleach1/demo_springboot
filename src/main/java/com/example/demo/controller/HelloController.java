@@ -22,6 +22,7 @@ public class HelloController {
     @Autowired
     private BookBean bookBean;
 
+
     @RequestMapping(value = "/demo", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
     public String index() {
         return "Hello Spring Boot! The BookName is " + bookName + ";and Book Author is " + bookAuthor + ";and Book PinYin is " + bookPinYin;

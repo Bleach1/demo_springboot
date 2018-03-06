@@ -1,19 +1,9 @@
 package com.example.demo.bean;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+public class UserMyBatis {
 
-//JPA 方式
-@Entity(name = "users")
-public class User {
-    @Id
-    @GeneratedValue
     private Integer id;
-    @Column
     private String name;
-    @Column
     private Integer age;
 
     public Integer getId() {
@@ -39,4 +29,5 @@ public class User {
     public void setAge(Integer age) {
         this.age = age;
     }
+
 }

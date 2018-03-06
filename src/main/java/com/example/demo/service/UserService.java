@@ -8,9 +8,8 @@ import org.springframework.stereotype.Service;
 public class UserService {
     @Autowired
     private JdbcTemplate jdbcTemplate;
-
     public void createUser(String name, Integer age) {
         jdbcTemplate.update("insert into users values (null ,?,?);", name, age);
-
     }
+
 }
