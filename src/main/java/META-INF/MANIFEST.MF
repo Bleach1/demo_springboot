@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Class-Path: spring-boot-starter-data-redis-1.5.10.RELEASE.jar tomcat-e
+ mbed-el-8.5.27.jar spring-boot-starter-jta-atomikos-1.5.10.RELEASE.ja
+ r hibernate-entitymanager-5.0.12.Final.jar transactions-3.9.3.jar spr
+ ing-context-4.3.14.RELEASE.jar dom4j-1.6.1.jar slf4j-api-1.7.25.jar a
+ tomikos-util-3.9.3.jar jandex-2.0.0.Final.jar validation-api-1.1.0.Fi
+ nal.jar commons-lang-2.6.jar spring-data-redis-1.8.10.RELEASE.jar sna
+ keyaml-1.17.jar spring-aop-4.3.14.RELEASE.jar transactions-jdbc-3.9.3
+ .jar mybatis-spring-1.3.1.jar spring-oxm-4.3.14.RELEASE.jar spring-tx
+ -4.3.14.RELEASE.jar spring-web-4.3.14.RELEASE.jar jackson-core-2.8.10
+ .jar spring-boot-starter-jdbc-1.5.10.RELEASE.jar jedis-2.9.0.jar tran
+ sactions-jta-3.9.3.jar tomcat-annotations-api-8.5.27.jar transactions
+ -api-3.9.3.jar spring-expression-4.3.14.RELEASE.jar spring-boot-start
+ er-data-jpa-1.5.10.RELEASE.jar spring-boot-autoconfigure-1.5.10.RELEA
+ SE.jar hibernate-commons-annotations-5.0.1.Final.jar spring-boot-star
+ ter-logging-1.5.10.RELEASE.jar javassist-3.21.0-GA.jar jboss-logging-
+ 3.3.1.Final.jar slf4j-log4j12-1.7.25.jar log4j-over-slf4j-1.7.25.jar 
+ spring-orm-4.3.14.RELEASE.jar jcl-over-slf4j-1.7.25.jar spring-boot-s
+ tarter-tomcat-1.5.10.RELEASE.jar hibernate-core-5.0.12.Final.jar logb
+ ack-classic-1.1.11.jar tomcat-juli-8.5.27.jar spring-boot-configurati
+ on-processor-1.5.10.RELEASE.jar jackson-databind-2.8.10.jar tomcat-em
+ bed-websocket-8.5.27.jar tomcat-jdbc-8.5.27.jar spring-beans-4.3.14.R
+ ELEASE.jar hibernate-jpa-2.1-api-1.0.0.Final.jar mysql-connector-java
+ -5.1.45.jar jul-to-slf4j-1.7.25.jar spring-data-jpa-1.11.10.RELEASE.j
+ ar spring-data-keyvalue-1.2.10.RELEASE.jar mybatis-spring-boot-autoco
+ nfigure-1.3.0.jar spring-aspects-4.3.14.RELEASE.jar classmate-1.3.4.j
+ ar aspectjweaver-1.8.13.jar commons-pool2-2.4.3.jar jackson-annotatio
+ ns-2.8.0.jar transactions-jms-3.9.3.jar mybatis-3.4.4.jar spring-boot
+ -starter-web-1.5.10.RELEASE.jar spring-boot-starter-freemarker-1.5.10
+ .RELEASE.jar spring-context-support-4.3.14.RELEASE.jar javax.transact
+ ion-api-1.2.jar spring-webmvc-4.3.14.RELEASE.jar hibernate-validator-
+ 5.3.6.Final.jar mybatis-spring-boot-starter-1.3.0.jar spring-core-4.3
+ .14.RELEASE.jar freemarker-2.3.27-incubating.jar logback-core-1.1.11.
+ jar log4j-1.2.17.jar spring-boot-starter-1.5.10.RELEASE.jar antlr-2.7
+ .7.jar spring-boot-1.5.10.RELEASE.jar spring-jdbc-4.3.14.RELEASE.jar 
+ spring-data-commons-1.13.10.RELEASE.jar tomcat-embed-core-8.5.27.jar
+Main-Class: com.example.demo.app.DemoApplication
+

@@ -3,6 +3,7 @@ package com.example.demo.mapper.test1;
 import com.example.demo.mapper.test2.UserMapperTest2;
 import com.example.demo.mapper.test2.UserServiceTest2;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -25,5 +26,12 @@ public class UserServiceTest1 {
         int i = 1 / 0;
         return "Success";
     }
+
+
+    @Async//异步
+    public void sendMsg() {
+        System.out.print("异步执行函数");
+    }
+
 
 }

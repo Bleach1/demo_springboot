@@ -7,8 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
 
 @RestController//标识改接口返回json格式
 public class HelloController {
@@ -38,5 +40,17 @@ public class HelloController {
         map.put("price", bookBean.getPrice());
         return map;
     }
+
+
+    @RequestMapping("/uid")
+    String uid(HttpSession session) {
+        UUID uid = (UUID) session.getAttribute("uid");
+        if (uid == null) {
+            uid = UUID.randomUUID();
+        }
+        session.setAttribute("uid", uid);
+        return session.getId();
+    }
+
 
 }

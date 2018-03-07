@@ -8,6 +8,7 @@ import com.example.demo.mapper.test1.UserServiceTest1;
 import com.example.demo.mapper.test2.UserMapperTest2;
 import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -39,6 +40,7 @@ public class UserController {
     }
 
     @RequestMapping("/getUser")
+    //@Cacheable(value = "id")
     public String getUser(Integer id) {
         userDao.findOne(id);
         return "success";
